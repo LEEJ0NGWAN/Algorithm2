@@ -8,7 +8,7 @@ class Solution {
         
         for (int i = 0; i < nums.length; map.put(nums[i], i++)) {
             
-            final int expect = target - nums[i];
+            int expect = target - nums[i];
             
             if (map.containsKey(expect)) {
                 
